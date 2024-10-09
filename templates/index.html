@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Scraper</title>
+</head>
+<body>
+    <h1>Simple Web Scraper</h1>
+    <form action="/scrape" method="POST">
+        <label for="url">Enter URL:</label>
+        <input type="text" id="url" name="url" required>
+        <br>
+        <label for="div_selector">Enter Div Class/ID (e.g., 'main-content'):</label>
+        <input type="text" id="div_selector" name="div_selector" required>
+        <br>
+        <button type="submit">Scrape</button>
+    </form>
+</body>
+</html>
